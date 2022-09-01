@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>div:first-child {
+    display: flex;
+}
+
+header>div:first-child h1 {
+    font-size: 4em;
+}
+
+header>div:first-child p {
+    font-size: 1em;
+}
+
+header>div:first-child span {
+    display: flex;
+    margin-left: .25em;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-weight: bold;
+}

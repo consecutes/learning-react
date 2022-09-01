@@ -1,0 +1,7 @@
+.ToDoCounter h1 {
+    font-size: 2em;
+}
+
+.ToDoCounter h1 span {
+    color: #50E3A4;
+}

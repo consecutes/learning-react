@@ -1,0 +1,34 @@
+.CreateTodoButton {
+    position: fixed;
+    top: 85vh;
+}
+
+.CreateTodoButton button {
+    margin: auto;
+    width: fit-content;
+    border-radius: 100%;
+    cursor: pointer;
+
+    transition: all .3s ease;
+
+    background: #50E3A4;
+    border: #50E3A4 solid 1px;
+    color: #45BB89;
+
+    box-shadow: 10px 2px 31px -2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 10px 2px 31px -2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 10px 2px 31px -2px rgba(0, 0, 0, 0.25);
+}
+
+.CreateTodoButton button:hover {
+    background: #45BB89;
+    border: #45BB89 solid 1px;
+    color: #50E3A4;
+
+    box-shadow: none;
+}
+
+.CreateTodoButton button i {
+    font-size: 2.5em;
+    margin: 0.35em;
+}
