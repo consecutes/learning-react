@@ -3,10 +3,8 @@
 }
 
 .Content {
-    height: 77.5vh;
+    height: 72.5vh;
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    gap: 1em;
-    margin: 1em 0;
 }

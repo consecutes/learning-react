@@ -1,6 +1,6 @@
 .CreateTodoButton {
     position: fixed;
-    top: 85vh;
+    bottom: 3.5em;
 }
 
 .CreateTodoButton button {

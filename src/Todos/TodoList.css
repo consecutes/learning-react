@@ -1,12 +1,11 @@
 .ToDoList {
     display: flex;
-    margin: 1em 0;
 }
 
 .ToDoList ul {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+    gap: 2em;
 
     margin: 0;
     padding: 0;
@@ -17,11 +16,15 @@
 .ToDoList ul li {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-.ToDoList ul li h2,
-.ToDoList ul li i {
+.ToDoList ul li h2 {
     font-size: 1.5em;
+}
+
+.ToDoList ul li i {
+    font-size: 2em;
 }
 
 .ToDoList ul li i {
@@ -29,6 +32,7 @@
 }
 
 .ToDoList ul li h2 {
+    font-weight: lighter;
     max-width: 80%;
 }
 
