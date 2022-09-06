@@ -1,7 +1,7 @@
 import React from "react";
-import './CreateTodoButton.css';
+import './SettingsButton.css';
 
-function CreateTodoButton() {
+function SettingsButton() {
     return(
         <section className="CreateTodoButton">
             <button type="button" title="Options">
@@ -11,4 +11,4 @@ function CreateTodoButton() {
     )
 }
 
-export { CreateTodoButton };
+export { SettingsButton };

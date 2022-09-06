@@ -3,9 +3,9 @@ import React from 'react';
 
 // Componentes
 //;import { TodoSearch } from './TodoSearch';
-import { Header } from './Header/index'
-import { TodoCounter } from './TodoCounter/index';
-import { CreateTodoButton } from './CreateTodoButton/index';
+import { Header } from './Header/Header'
+import { TodoCounter } from './TodoCounter/TodoCounter';
+import { SettingsButton } from './CreateTodoButton/SettingsButton';
 import TodoList from './Todos/TodoList';
 import TodoItem from './Todos/TodoItem';
 // Todos
@@ -36,7 +36,7 @@ function App() {
         </TodoList>
         <TodoCounter/>
       </div>
-      <CreateTodoButton/>
+      <SettingsButton/>
 
     </React.Fragment>
   );
