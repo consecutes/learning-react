@@ -13,12 +13,10 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-
   max-width: 375px;
-  min-height: 100vh;
+  height: 100vh;
   margin: auto;
-  padding: 3.5em 2em;
-
+  padding: 0 3em;
   color: #44464e;
   background-color: #fefefe;
   border: #f3f3f3 solid 1px;

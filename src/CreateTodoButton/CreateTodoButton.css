@@ -1,6 +1,6 @@
 .CreateTodoButton {
-    position: fixed;
-    bottom: 3.5em;
+    display: flex;
+    padding-bottom: 1em;
 }
 
 .CreateTodoButton button {

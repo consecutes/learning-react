@@ -23,14 +23,16 @@ function App() {
     <React.Fragment>
 
       {/*<TodoSearch/>*/}
+      <Header />
       <div className='Content'>
-        <Header />
+        
         <TodoList>
           {
             todos.map(todo => (
               <TodoItem key={todo.task} task={todo.task}/>
             ))
           }
+          
         </TodoList>
         <TodoCounter/>
       </div>
