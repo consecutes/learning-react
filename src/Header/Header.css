@@ -1,14 +1,16 @@
 header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(1fr, 2);
     align-items: center;
 }
 
 header>div:first-child {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header>div:first-child h1 {
+.fechaActual h1 {
     font-size: 4em;
 }
 
@@ -16,10 +18,17 @@ header>div:first-child p {
     font-size: 1em;
 }
 
-header>div:first-child span {
+.fechaActual {
     display: flex;
-    margin-left: .25em;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     font-weight: bold;
+}
+
+.mesAño {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    margin-left: .25em;
 }

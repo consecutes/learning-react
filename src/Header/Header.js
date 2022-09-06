@@ -4,20 +4,22 @@ import meses from '../utils/months';
 
 const fecha = new Date();
 
-function Header() {
+function Header(props) {
     return(
         <header>
             <div>
-                <h1>{fecha.getDate()}</h1>
-                <span>
-                    <p>{meses[fecha.getMonth()]}</p>
-                    <p>{fecha.getFullYear()}</p>
+                <span className="fechaActual">
+                    <h1>{fecha.getDate()}</h1>
+                    <span className="mesAño">
+                        <p>{meses[fecha.getMonth()]}</p>
+                        <p>{fecha.getFullYear()}</p>
+                    </span>
                 </span>
-            </div>
-
-            <div>
                 <h1>Viernes</h1>
             </div>
+            {
+                props.children
+            }
         </header>
     )
 };

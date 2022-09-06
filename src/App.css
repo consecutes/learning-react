@@ -5,7 +5,10 @@
 .Content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
     height: 100%;
     margin: 1em 0;
+
     overflow-y: scroll;
 }
